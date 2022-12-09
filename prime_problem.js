@@ -1,8 +1,8 @@
 let a=23;
 let prime=true;
-for(let i=2;i<=a;i++)
+for(let i=2;i<a;i++)
 {
-    if(a%i=0)
+    if(a%i==0)
     {
         prime=false;
     }
